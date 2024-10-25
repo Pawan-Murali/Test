@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honest Motivational Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Honest Motivational Quotes</h1>
+        <p>Select a category:</p>
+        <div id="category-select">
+            <select id="categoryDropdown">
+                <option value="self_doubt">Self Doubt</option>
+                <option value="procrastination">Procrastination</option>
+                <option value="fitness">Fitness</option>
+            </select>
+            <button onclick="fetchQuote()">Get Quote</button>
+        </div>
+        <p id="quoteOutput" class="quote-output"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
